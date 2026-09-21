@@ -1,10 +1,10 @@
 # Complete project index
 
-Snapshot: **2026-09-21**. This is a discovery index, not a ranking or a runtime certification.
+Last updated: **September 21, 2026**.
 
-Repository summaries are short upstream excerpts unless marked editorial in the JSON. Each evidence link points to the inspected README revision. Category assignments outside the curated selection are heuristic; a README reference can indicate an optional integration or related research.
+Browse by category below. Descriptions come from project documentation; README links point to the versions used for this list. Some projects include Jev as an optional integration.
 
-| Category | README evidence and recognized license |
+| Category | Projects |
 |---|---:|
 | [Official tools](official.md) | 5 |
 | [Trained models and training recipes](models.md) | 28 |
@@ -24,9 +24,9 @@ Repository summaries are short upstream excerpts unless marked editorial in the 
 
 **806 repositories** appear in the category pages above.
 
-- [License review](license-review.md): **393** related repositories with README evidence whose license was absent, custom, not automatically recognized, or outside this catalog's software/public-domain allowlist.
-- [Metadata-only leads](metadata-only.md): **20** related descriptions without a matching README reference in the inspected paths.
+- [License pending](license-review.md): 393 projects requiring a closer look at their license.
+- [To review](metadata-only.md): 20 projects awaiting README confirmation.
 
-These appendices are discovery leads and are **not counted as verified open-source implementations**.
+Entries in these two lists are kept separate from the licensed catalog.
 
-[Machine-readable snapshot](../data/projects.json) · [Research method](../docs/METHODOLOGY.md) · [Discovery sources](../docs/SOURCES.md)
+[JSON index](../data/projects.json) · [About the list](../docs/METHODOLOGY.md) · [References](../docs/SOURCES.md)

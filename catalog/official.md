@@ -2,9 +2,9 @@
 
 [All categories](README.md) · [Curated selection](../README.md)
 
-Snapshot: **2026-09-21**. A detected repository license does not establish the license of model weights, datasets, or dependencies. These repositories contain a relevant README reference; this does not establish a working implementation. Summaries without a curated entry are shortened upstream descriptions, not independently verified claims.
+Last updated: **September 21, 2026**. Descriptions follow upstream documentation. The license column covers the repository; weights and datasets may have separate terms.
 
-| Repository | Scope / upstream summary | Language | Repository license | Evidence |
+| Project | Description | Language | License | README |
 |---|---|---|---|---|
 | [typesafe-ai/daggerverse](https://github.com/typesafe-ai/daggerverse) | Collection of useful Dagger modules | Python | Apache-2.0 | [README](https://github.com/typesafe-ai/daggerverse/blob/b0e9d0ca81328d3c91a08ab8c7a0e8963c2fa7ae/README.md#L8) |
 | [typesafe-ai/skills](https://github.com/typesafe-ai/skills) | Official agent instructions and examples for designing bounded decision workflows. | Not detected | MIT | [README](https://github.com/typesafe-ai/skills/blob/65a39f393687675ce170e6094757de20370365b9/README.md#L3) |

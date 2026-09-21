@@ -2,9 +2,9 @@
 
 [Back to Awesome Jev](../README.md)
 
-Snapshot: September 21, 2026. This is an architectural reading guide based on public project documentation, not a benchmark leaderboard. Project names do not establish affiliation. A repository license does not automatically cover the base model, weights, or datasets.
+Updated September 21, 2026. The table compares implementation approaches and available artifacts. Check each project for current model, dataset, and license details.
 
-## Compare by artifact, not by name
+## Implementations
 
 | Project | Main approach | Artifacts to inspect | Important boundary |
 |---|---|---|---|
@@ -28,7 +28,7 @@ Snapshot: September 21, 2026. This is an architectural reading guide based on pu
 | [PoorJev](https://github.com/rupeshpoojary9/poorjev) | NLI-based judgments and calibration | Local scoring and abstention experiments | Calibration is conditional on data and assumptions |
 | [Eve RLCD](https://github.com/anthony-maio/eve-rlcd) | Independent calibration-training research | Training and evaluation artifacts | The RLCD name does not establish the official method |
 
-## What to verify before comparing
+## Comparing results
 
 1. **Decision contract:** question isolation, option limits, Score semantics, Noul semantics, and the definition of confidence.
 2. **Training exposure:** frozen backbone, supervised tuning, RL stage, task-specific data, and held-out tasks.
@@ -37,7 +37,7 @@ Snapshot: September 21, 2026. This is an architectural reading guide based on pu
 5. **Performance:** whole-request latency, p50/p95, cold start, caching, context length, question count, precision, hardware, and concurrency.
 6. **Reproducibility:** pinned revisions, dataset permissions, executable scoring code, raw outputs, and an explicit boundary between demonstrations and tests.
 
-The initial TypeSafe launch presented workflow-specific speed and cost comparisons. Those should not be transplanted onto arbitrary workloads or used to certify independent replicas. For open projects, author-reported results remain author-reported until independently reproduced.
+TypeSafe’s launch comparisons used specific workflows. When comparing a local implementation, use the same inputs, hardware assumptions, and measurement boundaries; task-trained and zero-shot results should be reported separately.
 
 ## Name collisions
 

@@ -1,12 +1,12 @@
-# Metadata-only discovery leads
+# To review
 
 [Complete index](README.md)
 
-These repositories were not promoted to the README-evidence index. Their descriptions suggest relevance, but implementation evidence needs further inspection.
+These projects mention Jev in their repository description. Their README or implementation still needs checking before they can join the main catalog.
 
-Snapshot: **2026-09-21**. Descriptions below are shortened upstream excerpts unless editorially reviewed. Missing detection does not prove a license is absent.
+Last updated: **September 21, 2026**. An unknown license means it was not identified in GitHub metadata; the repository may contain additional terms.
 
-| Repository | Provisional category | Scope / upstream summary | License detected | Reference |
+| Project | Category | Description | License | Source |
 |---|---|---|---|---|
 | [Bud-ro/jev-demos](https://github.com/Bud-ro/jev-demos) | Demos and playgrounds | Demos to test the effectiveness of TypeSafe's "Jev" System One Model | Not detected | [Source](https://github.com/Bud-ro/jev-demos) |
 | [carlaiau/jev-reranking](https://github.com/carlaiau/jev-reranking) | Data search and document workflows | Search engine experimentation on the TREC collections. Currently focused on zero-shot reranking implementations with typesafe.ai's JEV model | MIT | [Source](https://github.com/carlaiau/jev-reranking) |
@@ -16,7 +16,7 @@ Snapshot: **2026-09-21**. Descriptions below are shortened upstream excerpts unl
 | [hamidfarmani/jev-resume-match](https://github.com/hamidfarmani/jev-resume-match) | Productivity and domain applications | Score how well a resume matches a job description using Jev (TypeSafe AI). Next.js app that returns typed, explainable match scores instead ... | Not detected | [Source](https://github.com/hamidfarmani/jev-resume-match) |
 | [hide-G/magi-system-on-jev](https://github.com/hide-G/magi-system-on-jev) | SDKs and integrations | MAGI system (Neon Genesis Evangelion) recreated with Jev, TypeSafe AI's System One model. 3 sages deliberate your question. | Not detected | [Source](https://github.com/hide-G/magi-system-on-jev) |
 | [hifizz/jev-finance-benchmark](https://github.com/hifizz/jev-finance-benchmark) | Evaluation and calibration | typesafe.ai model jev finance benchmark | Not detected | [Source](https://github.com/hifizz/jev-finance-benchmark) |
-| [kijung4290/gmail-mail-triage](https://github.com/kijung4290/gmail-mail-triage) | Agent tools and workflow control | See the pinned README reference for project scope and implementation details. | Not detected | [Source](https://github.com/kijung4290/gmail-mail-triage) |
+| [kijung4290/gmail-mail-triage](https://github.com/kijung4290/gmail-mail-triage) | Agent tools and workflow control | — | Not detected | [Source](https://github.com/kijung4290/gmail-mail-triage) |
 | [lanfeng123456/jev-hub](https://github.com/lanfeng123456/jev-hub) | Learning resources and directories | Bilingual (zh/en) community guide for Jev - TypeSafe AI first System One decision model | Not detected | [Source](https://github.com/lanfeng123456/jev-hub) |
 | [mahan-ym/cleaner](https://github.com/mahan-ym/cleaner) | Demos and playgrounds | An experiment with JEV from typesafe.ai to clean up my useless data. | MIT | [Source](https://github.com/mahan-ym/cleaner) |
 | [Nachom3/jevTrader](https://github.com/Nachom3/jevTrader) | Finance and trading experiments | A High Frecuncy Trader made in Rust using Jev as a decision maker. | Not detected | [Source](https://github.com/Nachom3/jevTrader) |

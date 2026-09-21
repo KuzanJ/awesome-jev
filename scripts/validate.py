@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline structural checks for the research snapshot and local documentation."""
+"""Check project records and documentation links."""
 import json
 import re
 from pathlib import Path

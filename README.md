@@ -1,12 +1,12 @@
 # Awesome Jev
 
-An English guide to TypeSafe Jev, independent decision-model implementations, and the software built around them.
+Open models, libraries, tools, and applications for [Jev](https://typesafe.ai/) and System One decisions.
 
-**Snapshot: September 21, 2026 · 76 curated starting points · 1,219 deduplicated related repositories**
+**76 featured projects · 1,219 repositories indexed · Updated September 21, 2026**
 
-The complete index separates **806 repositories with README evidence and a recognized license**, **393 license-review entries**, and **20 metadata-only leads**. The wider index is systematically collected; the curated selection below receives closer editorial attention. Neither count is a claim that every project has been executed or audited.
+Start with the projects below, or browse **806 licensed repositories** in the full catalog. Projects with unclear licensing and those awaiting review are listed separately.
 
-**[Browse the complete index](catalog/README.md)** · [Model comparison](docs/MODELS.md) · [Research method](docs/METHODOLOGY.md) · [Contribute](CONTRIBUTING.md)
+**[Browse all projects](catalog/README.md)** · [Compare implementations](docs/MODELS.md) · [References](docs/SOURCES.md) · [Contribute](CONTRIBUTING.md)
 
 ## What is Jev?
 
@@ -34,7 +34,7 @@ Questions should be atomic. Code combines judgments, applies thresholds, and per
 
 Read the [official confidence definition](https://docs.typesafe.ai/confidence) and [known failure modes](https://docs.typesafe.ai/model-jaggedness/jev-1.13). Schema validity does not imply a correct decision. Confidence is a statistic derived from a distribution, not automatically the probability that an answer is correct. Independent implementations may define these fields differently.
 
-## Understand the ecosystem
+## Project types
 
 | Artifact | What is open | How it relates to Jev |
 |---|---|---|
@@ -44,19 +44,19 @@ Read the [official confidence definition](https://docs.typesafe.ai/confidence) a
 | Application or agent integration | Application code | Uses Jev as one component; often still requires a hosted API |
 | Evaluation project | Harness, cases, or recorded results | Measures a specific task or property, not universal superiority |
 
-A compatible request schema, open inference code, released weights, a complete training recipe, and demonstrated calibration are **five separate properties**. Check each independently.
+API compatibility does not guarantee matching behavior. Check whether a project provides inference code, weights, training data, and calibration results.
 
-## Suggested reading paths
+## Where to start
 
 - **Understand the product:** [launch announcement](https://typesafe.ai/blog/introducing-system-one-models-and-jev), [API introduction](https://docs.typesafe.ai/introduction), then [limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
 - **Study inference:** [SemIf](https://github.com/TheoLeeCJ/SemIf), [mini-Jev](https://github.com/r-ms/mini-jev), and [Simple Jev](https://github.com/featherless-ai/simple-jev).
 - **Study training:** [Decider](https://github.com/Mapika/decider), [Kev](https://github.com/jaredpalmer/kev), [Laya](https://github.com/NandhaKishorM/laya), and [Luce](https://github.com/scienthoon/luce).
 - **Build a workflow:** [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast), [DocJev](https://github.com/jerryjliu/docjev), and [Jevwire](https://github.com/Brainwires/jevwire).
-- **Evaluate a claim:** [JevBench](https://github.com/fstandhartinger/jevbench) and [Jev Calibration Audit](https://github.com/jujumilk3/jev-calibration-audit); examine labels, option ordering, abstention, splits, and measurement conditions.
+- **Compare results:** [JevBench](https://github.com/fstandhartinger/jevbench) and [Jev Calibration Audit](https://github.com/jujumilk3/jev-calibration-audit); examine labels, option ordering, abstention, splits, and measurement conditions.
 
-## Curated starting points
+## Featured projects
 
-Each row links to its project and a pinned primary-source reference. Licenses shown are for the repository, not automatically for its weights or data. Order groups related approaches; it does not rank quality.
+Grouped by what they build. Source links point to project documentation; licenses cover code unless noted otherwise.
 
 - [Official tools](#official-tools)
 - [Trained models and training recipes](#trained-models-and-training-recipes)
@@ -70,7 +70,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Official tools
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [Official Python SDK](https://github.com/typesafe-ai/typesafe-sdk-python) | Synchronous and asynchronous clients for the hosted System One API. | MIT | [Source](https://github.com/typesafe-ai/typesafe-sdk-python/blob/2ce5c65f13646cab6e6f782328194c9d85f3300a/README.md#L3) |
 | [Official JavaScript SDK](https://github.com/typesafe-ai/typesafe-sdk-js) | Typed JavaScript and TypeScript access to Jev questions and answers. | MIT | [Source](https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/README.md#L3) |
@@ -79,7 +79,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Trained models and training recipes
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [Decider](https://github.com/Mapika/decider) | Qwen-based decision models with released checkpoints, training code, calibration experiments, and a compatible server. | Apache-2.0 | [Source](https://github.com/Mapika/decider/blob/c4daaac28af9fea95d627015cffa2dd5a5926ee6/README.md#L14) |
 | [Laya](https://github.com/NandhaKishorM/laya) | Compact encoder-based decision models with multilingual variants, public checkpoints, and a domain fine-tuning notebook. | Apache-2.0 | [Source](https://github.com/NandhaKishorM/laya/blob/42626c348753fbb17572a813127df2278a1ec527/README.md#L24) |
@@ -93,7 +93,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Local inference and compatible servers
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [SemIf (formerly OpenJev)](https://github.com/TheoLeeCJ/SemIf) | Reads candidate scores from existing open models, with shared-state inference and local backend experiments. | MIT | [Source](https://github.com/TheoLeeCJ/SemIf/blob/ca3ba65f142967030ecb453346e94d6f476a69df/README.md#L7) |
 | [LitJev](https://github.com/zhengxuyu/litjev) | Serves typed decisions from Qwen output-head scores without retraining; probabilities are not calibrated by default. | Apache-2.0 | [Source](https://github.com/zhengxuyu/litjev/blob/f21216c9fe5afe7fa52ff7064a402ee57fdbddd3/README.md#L3) |
@@ -111,7 +111,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Evaluation and calibration
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [JevBench](https://github.com/fstandhartinger/jevbench) | Cross-backend benchmark covering decision quality, calibration, latency, and cost; inspect version-specific scoring assumptions. | MIT | [Source](https://github.com/fstandhartinger/jevbench/blob/fd51755eb0c0b546ca206d764faf3302feca913e/README.md#L6) |
 | [mini-Jev](https://github.com/r-ms/mini-jev) | Preregistered comparison of candidate-logit readout and grammar-constrained JSON, including abstention and dependent-field limitations. | MIT | [Source](https://github.com/r-ms/mini-jev/blob/ca612198bfb69f538f029a4615f6d0a18b4f814c/README.md#L3) |
@@ -125,7 +125,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### SDKs and integrations
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [jev-go](https://github.com/Gaurav-Gosain/jev-go) | Go client for typed questions and probabilistic answers from the hosted API. | MIT | [Source](https://github.com/Gaurav-Gosain/jev-go/blob/c9867e4afad0ddfaf4b9deb31038218495712fd0/README.md#L3) |
 | [jev-go (Stumble)](https://github.com/Stumble/jev-go) | Go client and CLI supporting TypeSafe direct access and Vercel AI Gateway. | MIT | [Source](https://github.com/Stumble/jev-go/blob/a475dc925ba68602be93f4478e1381cf5ec27ee4/README.md#L16) |
@@ -141,7 +141,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Agent tools and workflow control
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [Jev MCP](https://github.com/jkudish/jev-mcp) | MCP tools for bounded judgments such as verification, screening, and ranking. | MIT | [Source](https://github.com/jkudish/jev-mcp/blob/69ffb4b49c88802ec6e49b883f4a36b91d23197e/README.md#L6) |
 | [Jevwire](https://github.com/Brainwires/jevwire) | MCP server, embeddable decision library, and agent hooks for bounded workflow judgments. | MIT | [Source](https://github.com/Brainwires/jevwire/blob/fabe7e79252b415278cd4b42355e63106fb5af80/README.md#L3) |
@@ -159,7 +159,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Browser and device control
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) | Browser agent where Jev chooses operations and elements, while a text model supplies typed content. | MIT | [Source](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md#L1) |
 | [TypeSafe Computer Use](https://github.com/awlevin/typesafe-computer-use) | macOS control loop combining screen OCR, bounded action selection, and execution. | MIT | [Source](https://github.com/awlevin/typesafe-computer-use/blob/cc7b5066ae1a07b5e3182e8f87a9b5b6dfdcffc1/README.md#L10) |
@@ -170,7 +170,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Data search and document workflows
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [DocJev](https://github.com/jerryjliu/docjev) | Classifies documents and finds packet boundaries using local text extraction and hosted Jev judgments. | Apache-2.0 | [Source](https://github.com/jerryjliu/docjev/blob/9ed0fe05984ce1906af9272b8b400c8d46520f98/README.md#L15) |
 | [jevql](https://github.com/kylemclaren/jevql) | SQL-oriented tools that apply Jev judgments to PostgreSQL query results. | MIT | [Source](https://github.com/kylemclaren/jevql/blob/274532af852e8edfb7715ec6dca1113e589cb191/README.md#L23) |
@@ -182,7 +182,7 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 ### Games robotics and simulations
 
-| Project | What to inspect | Code license | Evidence |
+| Project | Description | License | Source |
 |---|---|---|---|
 | [Jev Drone](https://github.com/RomanSlack/jev-drone) | MuJoCo drone experiment placing Jev judgments inside a slower decision loop. | MIT | [Source](https://github.com/RomanSlack/jev-drone/blob/cbeb53ce4f17a06ea490ae43effcdad231143610/README.md#L4) |
 | [EmbodiedJev](https://github.com/FBddcz/embodied-jev) | Robot-decision workbench comparing local models, Jev, and compatible endpoints. | MIT | [Source](https://github.com/FBddcz/embodied-jev/blob/764f2ffac40ef65c7fda0d5ba897f9992ba8d464/README.md#L31) |
@@ -193,10 +193,12 @@ Each row links to its project and a pinned primary-source reference. Licenses sh
 
 The [complete index](catalog/README.md) adds community SDKs, agent plugins, security and moderation tools, document workflows, browser agents, games, robotics, productivity applications, and finance experiments. Full repository names disambiguate unrelated projects that share names such as `openjev`, `jev-mcp`, and `jev-go`.
 
-## Scope and maintenance
+## About this list
 
-Independent and unaffiliated with TypeSafe AI. Jev itself is a hosted proprietary model; a public client is not an open model. Independent implementations reproduce interfaces or behavior to varying degrees, not a disclosed TypeSafe training recipe.
+This is a community list, unaffiliated with TypeSafe AI. It includes both applications using the hosted Jev API and independent models that run locally.
 
-This is a dated research snapshot, not an exhaustive registry. Project state, naming, compatibility, and licensing can change. See the [methodology](docs/METHODOLOGY.md), [source acknowledgments](docs/SOURCES.md), and [contribution policy](CONTRIBUTING.md). Descriptions report upstream scope; performance and calibration claims require task-specific evaluation.
+Found a useful project or a broken link? [Open an issue](https://github.com/KuzanJ/awesome-jev/issues) or send a pull request. See [how the list is maintained](docs/METHODOLOGY.md) and the [contribution guide](CONTRIBUTING.md).
 
-Editorial content and maintenance scripts are available under the [MIT license](LICENSE). Linked projects and attributed upstream excerpts retain their respective authorship and licensing.
+Thanks to the project authors and the [community lists](docs/SOURCES.md) that helped make this directory possible.
+
+[MIT](LICENSE). Linked projects retain their own licenses.

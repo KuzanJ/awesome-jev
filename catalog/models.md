@@ -2,9 +2,9 @@
 
 [All categories](README.md) · [Curated selection](../README.md)
 
-Snapshot: **2026-09-21**. A detected repository license does not establish the license of model weights, datasets, or dependencies. These repositories contain a relevant README reference; this does not establish a working implementation. Summaries without a curated entry are shortened upstream descriptions, not independently verified claims.
+Last updated: **September 21, 2026**. Descriptions follow upstream documentation. The license column covers the repository; weights and datasets may have separate terms.
 
-| Repository | Scope / upstream summary | Language | Repository license | Evidence |
+| Project | Description | Language | License | README |
 |---|---|---|---|---|
 | [AbdelStark/jev-benchmarks](https://github.com/AbdelStark/jev-benchmarks) | Probability-aware evaluation for typed decision models: calibration, selective risk, latency, and reproducible benchmarks. | Python | Apache-2.0 | [README](https://github.com/AbdelStark/jev-benchmarks/blob/0d610cc53e79bcbec691312b0c4adb4a0e371642/README.md#L9) |
 | [andrewsilber/JevsBistro](https://github.com/andrewsilber/JevsBistro) | 3D restaurant service simulator for benchmarking low-latency decision models | TypeScript | MIT | [README](https://github.com/andrewsilber/JevsBistro/blob/afe5f398acfef0ddbf8968cba0fec3411aa9a468/README.md#L28) |
@@ -29,7 +29,7 @@ Snapshot: **2026-09-21**. A detected repository license does not establish the l
 | [scienthoon/luce](https://github.com/scienthoon/luce) | Task-specific pipeline for synthetic data, LoRA and decision-head training, calibration evaluation, and serving. | Python | Apache-2.0 | [README](https://github.com/scienthoon/luce/blob/fd137a0bb9024d1505ef343b7f8c96833721377b/README.md#L9) |
 | [theyashwanthsai/jevals](https://github.com/theyashwanthsai/jevals) | LLM/LLM agent eval framework, graded by a calibrated decision model. Research preview. | Python | MIT | [README](https://github.com/theyashwanthsai/jevals/blob/1fc8d52bd3eed0a66b6641460f4a60720e30547c/README.md#L10) |
 | [TianyuCodings/NanoJev](https://github.com/TianyuCodings/NanoJev) | Small decision model with dynamic candidates, released game-task data, training scripts, and replayable evaluations. | Python | MIT | [README](https://github.com/TianyuCodings/NanoJev/blob/76fdfc9ecdca45a9bcef17991a07d3041a87685a/README.md#L1) |
-| [VakeDomen/DIY-Jev](https://github.com/VakeDomen/DIY-Jev) | See the pinned README reference for project scope and implementation details. | Rust | MIT | [README](https://github.com/VakeDomen/DIY-Jev/blob/0e0c8067f9535d227f9a6ec7c1e01025ac5ee90a/README.md#L3) |
+| [VakeDomen/DIY-Jev](https://github.com/VakeDomen/DIY-Jev) | — | Rust | MIT | [README](https://github.com/VakeDomen/DIY-Jev/blob/0e0c8067f9535d227f9a6ec7c1e01025ac5ee90a/README.md#L3) |
 | [vinnylarouge/jevlike](https://github.com/vinnylarouge/jevlike) | Small option-attention scorer for learning decisions over changing candidate sets, with text and visual examples. | Python | MIT | [README](https://github.com/vinnylarouge/jevlike/blob/94f5fd1b0b11d52bbdfdf4e0ee6aa96b568f8452/README.md#L5) |
 | [wfzyx/von](https://github.com/wfzyx/von) | Encoder-style local decision model with released weights and a System One endpoint; inspect task-specific benchmark conditions. | Python | Apache-2.0 | [README](https://github.com/wfzyx/von/blob/14d09878e89b103bfbbe641f9bed02e4d72c8830/README.md#L32) |
 | [WiredMind2/jev](https://github.com/WiredMind2/jev) | Independent research notes toward an open Jev-like decision model: public facts, API contract, training and eval plan. | Python | MIT | [README](https://github.com/WiredMind2/jev/blob/ca8c8528d0686dd1872d9ee394c5fea1fb058c50/README.md#L1) |

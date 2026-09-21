@@ -2,9 +2,9 @@
 
 [All categories](README.md) · [Curated selection](../README.md)
 
-Snapshot: **2026-09-21**. A detected repository license does not establish the license of model weights, datasets, or dependencies. These repositories contain a relevant README reference; this does not establish a working implementation. Summaries without a curated entry are shortened upstream descriptions, not independently verified claims.
+Last updated: **September 21, 2026**. Descriptions follow upstream documentation. The license column covers the repository; weights and datasets may have separate terms.
 
-| Repository | Scope / upstream summary | Language | Repository license | Evidence |
+| Project | Description | Language | License | README |
 |---|---|---|---|---|
 | [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | ⚙️🦀 Build modular and scalable LLM Applications in Rust | Rust | MIT | [README](https://github.com/0xPlaygrounds/rig/blob/60a638e27442bb0a04db57998d097a8beda97928/README.md#L192) |
 | [alexwestco/llm-to-jev](https://github.com/alexwestco/llm-to-jev) | Convert LLM prompts to Jev prompts | JavaScript | MIT | [README](https://github.com/alexwestco/llm-to-jev/blob/8e6f6405fcb0c1b429f60852f6db537f269f94da/README.md#L3) |
@@ -22,7 +22,7 @@ Snapshot: **2026-09-21**. A detected repository license does not establish the l
 | [JacobLinCool/jev-paper-judge](https://github.com/JacobLinCool/jev-paper-judge) | Feedback on your paper in seconds. | TypeScript | MIT | [README](https://github.com/JacobLinCool/jev-paper-judge/blob/150366a916bb912eb9d2fa58966d7030a83ce5e0/README.md#L14) |
 | [jon-devlapaz/jev-me](https://github.com/jon-devlapaz/jev-me) | Grill-me with Jev optional each turn | Not detected | MIT | [README](https://github.com/jon-devlapaz/jev-me/blob/8de692783f49edb4ee791f57045ed89ccf000dee/README.md#L9) |
 | [koki-develop/fizzbuzz-jev](https://github.com/koki-develop/fizzbuzz-jev) | FizzBuzz powered by Jev, TypeSafe AI's System One model. | TypeScript | MIT | [README](https://github.com/koki-develop/fizzbuzz-jev/blob/e7d887af05ef3f02c2580738a2bb54ca71c5c565/README.md#L7) |
-| [kolibril13/jev-in-blender-experiment](https://github.com/kolibril13/jev-in-blender-experiment) | See the pinned README reference for project scope and implementation details. | Python | MIT | [README](https://github.com/kolibril13/jev-in-blender-experiment/blob/878ef49607fb86ddfa88d1eb51159df85a1df39d/README.md#L18) |
+| [kolibril13/jev-in-blender-experiment](https://github.com/kolibril13/jev-in-blender-experiment) | — | Python | MIT | [README](https://github.com/kolibril13/jev-in-blender-experiment/blob/878ef49607fb86ddfa88d1eb51159df85a1df39d/README.md#L18) |
 | [kspviswa/chakravyuha-jev](https://github.com/kspviswa/chakravyuha-jev) | Chakravyuha — a polar ring-maze where every move is a Jev (TypeSafe System One) decision. A fun experiment: the model picks each ... | JavaScript | MIT | [README](https://github.com/kspviswa/chakravyuha-jev/blob/a40f0d15509c39ec899c70f790a44d5701cda312/README.md#L3) |
 | [markjaquith/typesafe-ai-playground](https://github.com/markjaquith/typesafe-ai-playground) | A playground for experiments around Jev, TypeSafe's System One model. | Rust | MIT | [README](https://github.com/markjaquith/typesafe-ai-playground/blob/344d77450e1cf3d7aebd2c9566b362b9c693b8e2/README.md#L3) |
 | [MoeclubM/PlayJev](https://github.com/MoeclubM/PlayJev) | Better Jev playground | TypeScript | MIT | [README](https://github.com/MoeclubM/PlayJev/blob/edf1201801522d3990bd8f710a11b4cf1a167621/README.md#L5) |
@@ -32,6 +32,6 @@ Snapshot: **2026-09-21**. A detected repository license does not establish the l
 | [silky-x0/Postmark](https://github.com/silky-x0/Postmark) | A working Demo that acts as classifier to classify linkedin post which inside uses jev by Typesafe.ai | TypeScript | MIT | [README](https://github.com/silky-x0/Postmark/blob/2940e0a2cec0b29f8d347cf776048a1f9cd70414/README.md#L9) |
 | [sugarforever/tryjev](https://github.com/sugarforever/tryjev) | Jev Playground | Svelte | MIT | [README](https://github.com/sugarforever/tryjev/blob/b9f09450801708a1c78be29626fa9d34626ee7b0/README.md#L5) |
 | [TanayPadar/gpt-vs-jev](https://github.com/TanayPadar/gpt-vs-jev) | Compare GPT generated language with JEV structured Noul decisions on the same input. | TypeScript | MIT | [README](https://github.com/TanayPadar/gpt-vs-jev/blob/69de46cef91dd23431391d7fe5e3c827eace54cb/README.md#L10) |
-| [Towow-ai/jpp](https://github.com/Towow-ai/jpp) | See the pinned README reference for project scope and implementation details. | Python | MIT | [README](https://github.com/Towow-ai/jpp/blob/6cd440775bed5dd5a1f5951343b6891190119919/README.md#L118) |
+| [Towow-ai/jpp](https://github.com/Towow-ai/jpp) | — | Python | MIT | [README](https://github.com/Towow-ai/jpp/blob/6cd440775bed5dd5a1f5951343b6891190119919/README.md#L118) |
 | [uberto/jev-test](https://github.com/uberto/jev-test) | Review Kotlin files against From Objects to Functions principles using Jev | Python | MIT | [README](https://github.com/uberto/jev-test/blob/08ba8ed7b5fcee0c73a019a97f66a147380f56e8/README.md#L9) |
 | [utk2103/jev-studio](https://github.com/utk2103/jev-studio) | if you're experimenting with jev it will be easier from here | Python | MIT | [README](https://github.com/utk2103/jev-studio/blob/fe47b78d3d367de9907a2db8413395fe43d901f0/README.md#L8) |

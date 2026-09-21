@@ -24,7 +24,7 @@ Questions should be atomic. Code combines judgments, applies thresholds, and per
 
 Read the [official confidence definition](https://docs.typesafe.ai/confidence) and [known failure modes](https://docs.typesafe.ai/model-jaggedness/jev-1.13). Schema validity does not imply a correct decision. Confidence is a statistic derived from a distribution, not automatically the probability that an answer is correct. Independent implementations may define these fields differently.
 
-## Understand the ecosystem
+## Project types
 
 | Artifact | What is open | How it relates to Jev |
 |---|---|---|
@@ -34,12 +34,12 @@ Read the [official confidence definition](https://docs.typesafe.ai/confidence) a
 | Application or agent integration | Application code | Uses Jev as one component; often still requires a hosted API |
 | Evaluation project | Harness, cases, or recorded results | Measures a specific task or property, not universal superiority |
 
-A compatible request schema, open inference code, released weights, a complete training recipe, and demonstrated calibration are **five separate properties**. Check each independently.
+API compatibility does not guarantee matching behavior. Check whether a project provides inference code, weights, training data, and calibration results.
 
-## Suggested reading paths
+## Where to start
 
 - **Understand the product:** [launch announcement](https://typesafe.ai/blog/introducing-system-one-models-and-jev), [API introduction](https://docs.typesafe.ai/introduction), then [limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
 - **Study inference:** [SemIf](https://github.com/TheoLeeCJ/SemIf), [mini-Jev](https://github.com/r-ms/mini-jev), and [Simple Jev](https://github.com/featherless-ai/simple-jev).
 - **Study training:** [Decider](https://github.com/Mapika/decider), [Kev](https://github.com/jaredpalmer/kev), [Laya](https://github.com/NandhaKishorM/laya), and [Luce](https://github.com/scienthoon/luce).
 - **Build a workflow:** [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast), [DocJev](https://github.com/jerryjliu/docjev), and [Jevwire](https://github.com/Brainwires/jevwire).
-- **Evaluate a claim:** [JevBench](https://github.com/fstandhartinger/jevbench) and [Jev Calibration Audit](https://github.com/jujumilk3/jev-calibration-audit); examine labels, option ordering, abstention, splits, and measurement conditions.
+- **Compare results:** [JevBench](https://github.com/fstandhartinger/jevbench) and [Jev Calibration Audit](https://github.com/jujumilk3/jev-calibration-audit); examine labels, option ordering, abstention, splits, and measurement conditions.

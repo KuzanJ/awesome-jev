@@ -1,16 +1,19 @@
 # Contributing
 
-Please keep contributions in English and link to primary evidence.
+Found a useful Jev project? Send a pull request or [open an issue](https://github.com/KuzanJ/awesome-jev/issues). Corrections and broken-link reports are welcome too.
 
-## Add or update a project
+## Adding a project
 
-1. Check `data/projects.json` for the canonical `owner/repository`, including old names and redirects.
-2. Confirm the relationship to TypeSafe Jev, an independent decision implementation, or directly related research.
-3. Link to a README or relevant implementation at an inspected commit. Do not submit a product name with no source.
-4. Identify the repository license separately from weight and dataset licensing. If it is unclear, use `license-review`.
-5. Write a factual, concise description. Say what decision is made or what artifact is released. Avoid unqualified “zero hallucination,” “fully calibrated,” and “beats every model” claims.
-6. Choose a category and set the evidence and summary-provenance fields. Explain optional integrations and specialist training where relevant.
-7. Regenerate and validate:
+- Check the list for duplicates and renamed repositories.
+- Use the full repository URL and a short English description of what the project does.
+- Link to the relevant README or implementation, preferably at a specific commit.
+- State whether it calls the hosted Jev API or runs an independent model locally.
+- Check the repository license. Keep model and dataset terms separate; use `license-review` when the code license is unclear.
+- Keep performance claims out of the description unless they are necessary to explain the project and link to a reproducible comparison.
+
+Add the entry to `data/projects.json` and choose a category from `data/categories.json`. Projects awaiting a README check belong in `metadata-only`. For a README addition, also update `data/curated.json`.
+
+Then run:
 
 ```sh
 python3 scripts/render_catalog.py
@@ -18,17 +21,10 @@ python3 scripts/validate.py
 python3 scripts/render_catalog.py --check
 ```
 
-The README contains an editorial selection, not every submission. Update `data/curated.json` only when the project adds a useful reading path and its description has been checked. `docs/OVERVIEW.md` supplies the explanatory portion of the generated README.
+Please edit the data files rather than the generated tables. The introduction lives in `docs/OVERVIEW.md`.
 
-## Inclusion boundaries
+## Keeping the list useful
 
-- Public repositories with concrete Jev references can enter the discovery index.
-- A hosted-API application is not an open model. State the dependency accurately.
-- Independent implementations must not be presented as TypeSafe's released architecture or weights.
-- Public repositories without a detected reusable license belong in the licensing-review appendix.
-- Metadata-only leads stay separate until primary evidence is found.
-- Duplicated names are acceptable; duplicated canonical repositories are not.
-- Archived projects, forks, research failures, and negative benchmark results may be useful when clearly identified.
-- Spam, unrelated acronyms, unsupported affiliation claims, and links without a relevant artifact do not belong.
+Small experiments and negative results are welcome. Archived projects and forks should be marked. Distinguish an interface implementation from released model weights, and a task-specific benchmark from a general capability claim.
 
-Please report broken links, wrong categories, renamed repositories, licensing corrections, and overstated summaries through an issue or pull request.
+Leave out unrelated uses of the acronym JEV, duplicate promotional pages, and projects with no relevant documentation. If a category or description is wrong, a small correction is enough—there is no need to rewrite the whole entry.

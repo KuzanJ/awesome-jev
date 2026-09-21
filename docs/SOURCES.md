@@ -1,4 +1,4 @@
-# Sources and acknowledgments
+# References
 
 [Back to Awesome Jev](../README.md)
 
@@ -13,7 +13,7 @@
 
 ## Discovery catalogs
 
-These community projects helped discover repository addresses. The present catalog has its own taxonomy, primary-source snapshot, license separation, and editorial descriptions. Their project counts and verification claims were not adopted as our own.
+Thanks to the maintainers of these directories for collecting and sharing Jev projects.
 
 | Discovery key | Source |
 |---|---|
@@ -25,7 +25,7 @@ These community projects helped discover repository addresses. The present catal
 
 Additional discovery resources include the [Hugging Face Jev Reproductions Tracker](https://huggingface.co/spaces/multimodalart/jev-reproductions-tracker) and primary project links surfaced by web searches.
 
-## GitHub search sweep
+## GitHub searches
 
 Repository searches were executed on September 21, 2026:
 
@@ -36,10 +36,8 @@ Repository searches were executed on September 21, 2026:
 | `search-systemone` | `"system one" decision` | 200 |
 | `search-rlcd` | `RLCD` | 100 |
 
-These are discovery queries, not direct inclusion rules. Unrelated results such as medical uses of JEV and generic type-safety projects were filtered using primary-source references. Matching only repository metadata places an entry in the lower-evidence appendix.
+Search results were checked for relevant TypeSafe or Jev references. Unrelated acronyms and generic type-safety projects were excluded.
 
-## Primary repository attribution
+## Project descriptions
 
-Each record in [projects.json](../data/projects.json) identifies its source repository and evidence URL. Short descriptions marked `upstream-excerpt` are attributed to the repository owner; they are not new performance claims by this catalog. Upstream projects retain their own copyright, trademark, code, model, and data terms.
-
-No raw README collections, credentials, private repositories, or user account metadata are included in this repository.
+Source links are recorded in [projects.json](../data/projects.json). Descriptions marked `upstream-excerpt` come from the project owners. Linked code, models, and datasets retain their own licenses.

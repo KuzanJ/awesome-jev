@@ -2,9 +2,9 @@
 
 [All categories](README.md) · [Curated selection](../README.md)
 
-Snapshot: **2026-09-21**. A detected repository license does not establish the license of model weights, datasets, or dependencies. These repositories contain a relevant README reference; this does not establish a working implementation. Summaries without a curated entry are shortened upstream descriptions, not independently verified claims.
+Last updated: **September 21, 2026**. Descriptions follow upstream documentation. The license column covers the repository; weights and datasets may have separate terms.
 
-| Repository | Scope / upstream summary | Language | Repository license | Evidence |
+| Project | Description | Language | License | README |
 |---|---|---|---|---|
 | [24601/Augustus](https://github.com/24601/Augustus) | Agent skill: design judgment-assisted systems with TypeSafe Jev (System One). Maps Choice/Score/Noul onto decision theory, reranking, and routing. Composition algebra, question design, ... | Python | MIT | [README](https://github.com/24601/Augustus/blob/524c2d2cc4b07696e4f55b377b64fd8b6443dbc9/README.md#L3) |
 | [can1357/jegrep](https://github.com/can1357/jegrep) | Semantic grep: find code by describing what you're looking for, powered by Jev. | Rust | MIT | [README](https://github.com/can1357/jegrep/blob/e6d5b842e5e88e576c3fcab9e2aa25081cb643af/README.md#L49) |

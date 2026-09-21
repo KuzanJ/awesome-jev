@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate snapshot and generated pages
+      - name: Check project data and pages
         run: |
           python3 scripts/validate.py
           python3 scripts/render_catalog.py --check

@@ -2,9 +2,9 @@
 
 [All categories](README.md) · [Curated selection](../README.md)
 
-Snapshot: **2026-09-21**. A detected repository license does not establish the license of model weights, datasets, or dependencies. These repositories contain a relevant README reference; this does not establish a working implementation. Summaries without a curated entry are shortened upstream descriptions, not independently verified claims.
+Last updated: **September 21, 2026**. Descriptions follow upstream documentation. The license column covers the repository; weights and datasets may have separate terms.
 
-| Repository | Scope / upstream summary | Language | Repository license | Evidence |
+| Project | Description | Language | License | README |
 |---|---|---|---|---|
 | [buberlo/jev-trader](https://github.com/buberlo/jev-trader) | 24/7 market-making system around Jev (TypeSafe System One) decisions: deterministic state, calibrated judgments, hard risk vetoes. | Python | MIT | [README](https://github.com/buberlo/jev-trader/blob/15d089e656d968fabb750bde8ebeec6d0da1ac7d/README.md#L3) |
 | [Gaurav-Gosain/jev-alpha-bench](https://github.com/Gaurav-Gosain/jev-alpha-bench) | Does Jev predict stock returns from news? It reads the news well; there is no tradeable alpha. Three arms separate reading from ... | Go | MIT | [README](https://github.com/Gaurav-Gosain/jev-alpha-bench/blob/ce40f7a1c4148c26af99268122be3643bb277440/README.md#L3) |
