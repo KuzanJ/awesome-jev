@@ -1,0 +1,32 @@
+name: Suggest or correct a project
+description: Add a Jev-related repository or fix an existing entry.
+title: "[Project] "
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: What does Jev do here, or what independent artifact is released?
+      description: Please write in English and distinguish hosted API use from local implementations.
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Primary evidence URL
+      description: Prefer a commit-pinned README or implementation link.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Repository license and any separate model or data terms
+  - type: textarea
+    id: correction
+    attributes:
+      label: Additional context or correction

@@ -1,0 +1,17 @@
+{
+  "official": "Official tools",
+  "models": "Trained models and training recipes",
+  "inference": "Local inference and compatible servers",
+  "evaluation": "Evaluation and calibration",
+  "sdks": "SDKs and integrations",
+  "agents": "Agent tools and workflow control",
+  "browser": "Browser and device control",
+  "data": "Data search and document workflows",
+  "games": "Games robotics and simulations",
+  "security": "Security moderation and policy",
+  "finance": "Finance and trading experiments",
+  "productivity": "Productivity and domain applications",
+  "demos": "Demos and playgrounds",
+  "resources": "Learning resources and directories",
+  "other": "Other related projects"
+}

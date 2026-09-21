@@ -1,0 +1,16 @@
+name: Validate catalog
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate snapshot and generated pages
+        run: |
+          python3 scripts/validate.py
+          python3 scripts/render_catalog.py --check

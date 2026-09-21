@@ -1,0 +1,458 @@
+[
+  {
+    "group": "Official tools",
+    "slug": "typesafe-ai/typesafe-sdk-python",
+    "title": "Official Python SDK",
+    "summary": "Synchronous and asynchronous clients for the hosted System One API."
+  },
+  {
+    "group": "Official tools",
+    "slug": "typesafe-ai/typesafe-sdk-js",
+    "title": "Official JavaScript SDK",
+    "summary": "Typed JavaScript and TypeScript access to Jev questions and answers."
+  },
+  {
+    "group": "Official tools",
+    "slug": "typesafe-ai/system-one-adapter-python",
+    "title": "System One Adapter",
+    "summary": "Runs the same decision interface against language-model APIs for comparison and fallback experiments."
+  },
+  {
+    "group": "Official tools",
+    "slug": "typesafe-ai/skills",
+    "title": "TypeSafe Skills",
+    "summary": "Official agent instructions and examples for designing bounded decision workflows."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "Mapika/decider",
+    "title": "Decider",
+    "summary": "Qwen-based decision models with released checkpoints, training code, calibration experiments, and a compatible server."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "NandhaKishorM/laya",
+    "title": "Laya",
+    "summary": "Compact encoder-based decision models with multilingual variants, public checkpoints, and a domain fine-tuning notebook."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "jaredpalmer/kev",
+    "title": "Kev",
+    "summary": "Qwen-based model family with weights, training code, evaluation suites, and CUDA or Apple Silicon serving."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "TianyuCodings/NanoJev",
+    "title": "NanoJev",
+    "summary": "Small decision model with dynamic candidates, released game-task data, training scripts, and replayable evaluations."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "scienthoon/luce",
+    "title": "Luce",
+    "summary": "Task-specific pipeline for synthetic data, LoRA and decision-head training, calibration evaluation, and serving."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "wfzyx/von",
+    "title": "Von",
+    "summary": "Encoder-style local decision model with released weights and a System One endpoint; inspect task-specific benchmark conditions."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "vinnylarouge/jevlike",
+    "title": "Jevlike",
+    "summary": "Small option-attention scorer for learning decisions over changing candidate sets, with text and visual examples."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "OmniJev/PlayJev",
+    "title": "PlayJev",
+    "summary": "Vision-based game decision model with public weights, imitation-learning scripts, and closed-loop evaluation."
+  },
+  {
+    "group": "Trained models and training recipes",
+    "slug": "anthony-maio/eve-rlcd",
+    "title": "Eve RLCD",
+    "summary": "Independent calibration-training experiments inspired by Jev; its method is not TypeSafe's unpublished training recipe."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "TheoLeeCJ/SemIf",
+    "title": "SemIf (formerly OpenJev)",
+    "summary": "Reads candidate scores from existing open models, with shared-state inference and local backend experiments."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "zhengxuyu/litjev",
+    "title": "LitJev",
+    "summary": "Serves typed decisions from Qwen output-head scores without retraining; probabilities are not calibrated by default."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "featherless-ai/simple-jev",
+    "title": "Simple Jev",
+    "summary": "Local decision API over compatible open models, plus examples and optional task-specific training tools."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "razorback16/openjev",
+    "title": "OpenJev (razorback16)",
+    "summary": "DiffusionGemma decision server with vLLM and MLX backends; distinct from the project renamed SemIf."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "kshetrajna12/reflex",
+    "title": "Reflex",
+    "summary": "Shared-state question branches, bounded label scoring, local serving, and a browser demonstration."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "logan-markewich/jeff",
+    "title": "Jeff",
+    "summary": "GLiFormer-backed implementation of the System One API, including deployment and compatibility documentation."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "bnsd55/jevmlx",
+    "title": "jevmlx",
+    "summary": "MLX runtime that scores allowed field values and assembles structured decisions on Apple Silicon."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "kikoncuo/jevfire",
+    "title": "JEVfire",
+    "summary": "Parallel candidate scoring through vLLM, with reproducible inference comparisons and game demonstrations."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "dtunai/cu-Jev",
+    "title": "cu-Jev",
+    "summary": "C and CUDA inference engine for Qwen checkpoints, shared state, isolated questions, and typed decision serving."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "mizorewww/laya-mlx",
+    "title": "Laya-MLX",
+    "summary": "Native MLX inference for Laya checkpoints, with port-fidelity checks and local gameplay examples."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "Yinsongxu/LLM2Jev",
+    "title": "LLM2Jev",
+    "summary": "Adapts local language models into structured decision engines using prefill-only binary inference."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "rupeshpoojary9/poorjev",
+    "title": "PoorJev",
+    "summary": "Local decision interface built around NLI models, with temperature scaling and abstention experiments."
+  },
+  {
+    "group": "Local inference and compatible servers",
+    "slug": "hr98w/jev-visual",
+    "title": "Jev Visual",
+    "summary": "Educational Apple Silicon visual-decision experiments using shared context and direct candidate scoring."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "fstandhartinger/jevbench",
+    "title": "JevBench",
+    "summary": "Cross-backend benchmark covering decision quality, calibration, latency, and cost; inspect version-specific scoring assumptions."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "r-ms/mini-jev",
+    "title": "mini-Jev",
+    "summary": "Preregistered comparison of candidate-logit readout and grammar-constrained JSON, including abstention and dependent-field limitations."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "jujumilk3/jev-calibration-audit",
+    "title": "Jev Calibration Audit",
+    "summary": "API-only study of abstention, option effects, language transfer, and probability calibration."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "anessbelbati/jev-rerank-bench",
+    "title": "Jev Rerank Bench",
+    "summary": "Reranking comparisons with recorded provider responses, evaluation scripts, and uncertainty estimates."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "zhuyansen/jev-search-rerank-eval",
+    "title": "Jev Search Rerank Eval",
+    "summary": "Compares Jev reranking and embedding retrieval on a graded catalog-search workload."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "yodablocks/jev-orderby-bench",
+    "title": "Jev ORDER BY Bench",
+    "summary": "Tests whether decision probabilities support useful SQL ordering, including calibration and wording sensitivity."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "abhixhek/jevcal",
+    "title": "jevcal",
+    "summary": "Fits and checks task-specific decision thresholds, coverage, and drift on labeled examples."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "TokenTrim/jev-agent-failure-benchmark",
+    "title": "Agent Failure Benchmark",
+    "summary": "Evaluates Jev on identifying agent failures in a published failure-attribution task."
+  },
+  {
+    "group": "Evaluation and calibration",
+    "slug": "RINNECODER/jev-behavior-study",
+    "title": "Jev Behavior Study",
+    "summary": "Controlled API experiments with a written report, recorded outputs, and offline verification."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "Gaurav-Gosain/jev-go",
+    "title": "jev-go",
+    "summary": "Go client for typed questions and probabilistic answers from the hosted API."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "Stumble/jev-go",
+    "title": "jev-go (Stumble)",
+    "summary": "Go client and CLI supporting TypeSafe direct access and Vercel AI Gateway."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "Twister915/typesafe-ai",
+    "title": "TypeSafe AI for Rust",
+    "summary": "Rust client with asynchronous and blocking transports and retry observability."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "AbdelStark/s1-rs",
+    "title": "s1-rs",
+    "summary": "Rust types and question builders for composing System One decisions."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "jamesward/zio-typesafe-ai",
+    "title": "ZIO TypeSafe AI",
+    "summary": "Scala and ZIO integration for typed, composable decision requests."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "alterhq/typesafe-sdk-swift",
+    "title": "Swift SDK",
+    "summary": "Swift client for Choice, Score, and Noul, with concurrency and transport support."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "dannote/jev",
+    "title": "Jev for Elixir OTP",
+    "summary": "Integrates decision requests and responses with OTP process messaging."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "joshmn/typesafe-sdk",
+    "title": "Ruby SDK",
+    "summary": "Ruby client for the TypeSafe API."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "WiktorB2004/llama-index-jev",
+    "title": "LlamaIndex Jev",
+    "summary": "Adapters for using Jev as a retrieval reranker and query-engine selector."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "pithings/advocaat",
+    "title": "Advocaat",
+    "summary": "Small TypeScript client for expressing typed questions over application data."
+  },
+  {
+    "group": "SDKs and integrations",
+    "slug": "pambrose/jev4k",
+    "title": "jev4k",
+    "summary": "Kotlin client and DSL for Jev decision requests."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "jkudish/jev-mcp",
+    "title": "Jev MCP",
+    "summary": "MCP tools for bounded judgments such as verification, screening, and ranking."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "Brainwires/jevwire",
+    "title": "Jevwire",
+    "summary": "MCP server, embeddable decision library, and agent hooks for bounded workflow judgments."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "shitianfang/jev-use",
+    "title": "jev-use",
+    "summary": "Agent integration that delegates typed judgments to Jev and flags uncertain results for escalation."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "tamaratran/fast-jev-compaction",
+    "title": "Fast Jev Compaction",
+    "summary": "Scores tool-call history to retain useful content and remove or truncate stale results."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "tamaratran/jev-pruner",
+    "title": "Jev Pruner",
+    "summary": "Scores and trims long shell outputs before they enter an agent's context."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "gargpratyush/jev-router",
+    "title": "Jev Router",
+    "summary": "Uses Jev decisions to route coding work between model tiers."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "0xNatoshi/jev-codex-router",
+    "title": "Jev Codex Router",
+    "summary": "Selects a model, reasoning depth, and speed setting for each coding turn."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "thruwire/foreman",
+    "title": "Foreman",
+    "summary": "Uses Jev judgments to supervise a software-factory workflow."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "devagrawal09/jev-review",
+    "title": "Jev Review",
+    "summary": "Staged code-review workflow with a local dashboard and bounded judgments."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "supercorp-ai/supercov",
+    "title": "Supercov",
+    "summary": "Code-quality and coverage tooling that uses Jev to prioritize review work."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "DevMortimer/pi-warden",
+    "title": "Pi Warden",
+    "summary": "Agent guardrails and loop checks built on the Pi TypeSafe integration."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "valentynkit/jev-belay",
+    "title": "Jev Belay",
+    "summary": "Checks recorded evidence before accepting a coding agent's completion claim."
+  },
+  {
+    "group": "Agent tools and workflow control",
+    "slug": "valentynkit/jev-commit",
+    "title": "Jev Commit",
+    "summary": "Compares commit messages and staged changes through bounded pre-commit judgments."
+  },
+  {
+    "group": "Browser and device control",
+    "slug": "browser-use/jev-ultrafast",
+    "title": "Jev Ultrafast",
+    "summary": "Browser agent where Jev chooses operations and elements, while a text model supplies typed content."
+  },
+  {
+    "group": "Browser and device control",
+    "slug": "awlevin/typesafe-computer-use",
+    "title": "TypeSafe Computer Use",
+    "summary": "macOS control loop combining screen OCR, bounded action selection, and execution."
+  },
+  {
+    "group": "Browser and device control",
+    "slug": "droidrun/mobile-jev",
+    "title": "Mobile Jev",
+    "summary": "Android interaction experiments with Jev selecting actions in a device-control loop."
+  },
+  {
+    "group": "Browser and device control",
+    "slug": "jkudish/jev-browser",
+    "title": "Jev Browser",
+    "summary": "Browser automation library, CLI, and MCP integration using Jev for step selection."
+  },
+  {
+    "group": "Browser and device control",
+    "slug": "moritzkremb/jev-voice-browser",
+    "title": "Jev Voice Browser",
+    "summary": "Voice-driven browser control using typed intent and target decisions."
+  },
+  {
+    "group": "Browser and device control",
+    "slug": "kitze/unclutter",
+    "title": "Unclutter",
+    "summary": "Browser extension using Jev judgments and reusable rules to remove page clutter."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "jerryjliu/docjev",
+    "title": "DocJev",
+    "summary": "Classifies documents and finds packet boundaries using local text extraction and hosted Jev judgments."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "kylemclaren/jevql",
+    "title": "jevql",
+    "summary": "SQL-oriented tools that apply Jev judgments to PostgreSQL query results."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "recodelabs/duckdb-jev",
+    "title": "DuckDB Jev",
+    "summary": "DuckDB integration for filtering rows using natural-language criteria."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "mattn/sqlite3-jev",
+    "title": "SQLite3 Jev",
+    "summary": "SQLite extension exposing decision calls as SQL functions."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "kyu1204/jgrep",
+    "title": "jgrep",
+    "summary": "Searches code chunks by semantic criteria and returns file-and-line matches."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "superagents-lab/jev-search",
+    "title": "Jev Search",
+    "summary": "Uses Jev for query interpretation, source selection, and search-result relevance."
+  },
+  {
+    "group": "Data search and document workflows",
+    "slug": "sutro-sh/jev-align",
+    "title": "Jev Align",
+    "summary": "Human-feedback workflow for improving decision definitions and evaluating calibrated AI functions."
+  },
+  {
+    "group": "Games robotics and simulations",
+    "slug": "RomanSlack/jev-drone",
+    "title": "Jev Drone",
+    "summary": "MuJoCo drone experiment placing Jev judgments inside a slower decision loop."
+  },
+  {
+    "group": "Games robotics and simulations",
+    "slug": "FBddcz/embodied-jev",
+    "title": "EmbodiedJev",
+    "summary": "Robot-decision workbench comparing local models, Jev, and compatible endpoints."
+  },
+  {
+    "group": "Games robotics and simulations",
+    "slug": "valentynkit/jev-plays-pokemon-red",
+    "title": "Jev Plays Pokemon Red",
+    "summary": "Game harness combining deterministic mechanics with bounded Jev decisions and prediction scoring."
+  },
+  {
+    "group": "Games robotics and simulations",
+    "slug": "joshlarsen/jev-t-rex-runner",
+    "title": "Jev T-Rex Runner",
+    "summary": "Chrome dinosaur-game experiment driven by Jev decisions."
+  }
+]
